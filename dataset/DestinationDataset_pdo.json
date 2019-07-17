@@ -1,0 +1,16 @@
+{
+	"name": "DestinationDataset_pdo",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureBlob",
+		"typeProperties": {
+			"fileName": "",
+			"folderPath": "adftutorial/output"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
