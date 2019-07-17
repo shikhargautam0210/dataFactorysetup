@@ -8,7 +8,7 @@
 		"annotations": [],
 		"type": "AzureBlob",
 		"typeProperties": {
-			"fileName": "",
+			"fileName": "output.txt",
 			"folderPath": "adftutorial/output"
 		}
 	},
