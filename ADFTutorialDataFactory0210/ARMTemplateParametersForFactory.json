@@ -3,13 +3,13 @@
 	"contentVersion": "1.0.0.0",
 	"parameters": {
 		"factoryName": {
-			"value": "ADFTutorialDataFactory0210"
+			"value": "#{factory_name}"
 		},
 		"AzureStorage_connectionString": {
-			"value": ""
+			"value": "#{storage_connection_string}"
 		},
 		"AzureStorageLinkedService_connectionString": {
-			"value": ""
+			"value": "#{linked_storage_connection_string}"
 		},
 		"DestinationDataset_pdo_properties_typeProperties_fileName": {
 			"value": "output.txt"
