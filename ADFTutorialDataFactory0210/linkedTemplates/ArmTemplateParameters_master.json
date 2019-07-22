@@ -3,7 +3,7 @@
 	"contentVersion": "1.0.0.0",
 	"parameters": {
 		"factoryName": {
-			"value": "ADFTutorialDataFactory0210"
+			"value": "DataFactoryforDev"
 		},
 		"AzureStorage_connectionString": {
 			"value": ""
@@ -15,13 +15,13 @@
 			"value": "output.txt"
 		},
 		"DestinationDataset_pdo_properties_typeProperties_folderPath": {
-			"value": "adftutorial/output"
+			"value": "samplecontainer/output"
 		},
 		"SourceDataset_pdo_properties_typeProperties_fileName": {
 			"value": "emp.txt"
 		},
 		"SourceDataset_pdo_properties_typeProperties_folderPath": {
-			"value": "adftutorial/input"
+			"value": "samplecontainer/input"
 		},
 		"containerUri": {
 			"value": ""
