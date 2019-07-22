@@ -25,7 +25,7 @@
 				"type": "AzureBlob",
 				"typeProperties": {
 					"fileName": "output.txt",
-					"folderPath": "samplecontainer/output"
+					"folderPath": "#{container_name}/output"
 				}
 			},
 			"dependsOn": []
