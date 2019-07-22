@@ -8,11 +8,11 @@
 			"defaultValue": "DataFactoryforDev"
 		},
 		"AzureStorage_connectionString": {
-			"type": "secureString",
+			"type": "string",
 			"metadata": "Secure string for 'connectionString' of 'AzureStorage'"
 		},
 		"AzureStorageLinkedService_connectionString": {
-			"type": "secureString",
+			"type": "string",
 			"metadata": "Secure string for 'connectionString' of 'AzureStorageLinkedService'"
 		},
 		"DestinationDataset_pdo_properties_typeProperties_fileName": {
