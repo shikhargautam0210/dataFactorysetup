@@ -5,7 +5,7 @@
 		"factoryName": {
 			"type": "string",
 			"metadata": "Data Factory Name",
-			"defaultValue": "ADFTutorialDataFactory0210"
+			"defaultValue": "DataFactoryforDev"
 		}
 	},
 	"variables": {
@@ -25,7 +25,7 @@
 				"type": "AzureBlob",
 				"typeProperties": {
 					"fileName": "output.txt",
-					"folderPath": "adftutorial/output"
+					"folderPath": "samplecontainer/output"
 				}
 			},
 			"dependsOn": []
