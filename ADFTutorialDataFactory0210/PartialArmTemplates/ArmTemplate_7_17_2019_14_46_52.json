@@ -32,11 +32,11 @@
 						"userProperties": [
 							{
 								"name": "Source",
-								"value": "samplecontainer/input/emp.txt"
+								"value": "#{container_name}/input/emp.txt"
 							},
 							{
 								"name": "Destination",
-								"value": "samplecontainer/output/"
+								"value": "#{container_name}/output/"
 							}
 						],
 						"typeProperties": {
