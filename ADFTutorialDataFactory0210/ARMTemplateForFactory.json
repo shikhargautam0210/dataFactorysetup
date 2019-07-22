@@ -8,11 +8,11 @@
 			
 		},
 		"AzureStorage_connectionString": {
-			"type": "string",
+			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureStorage'"
 		},
 		"AzureStorageLinkedService_connectionString": {
-			"type": "string",
+			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureStorageLinkedService'"
 		},
 		"DestinationDataset_pdo_properties_typeProperties_fileName": {
