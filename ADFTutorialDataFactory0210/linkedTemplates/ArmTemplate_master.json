@@ -5,7 +5,7 @@
 		"factoryName": {
 			"type": "string",
 			"metadata": "Data Factory Name",
-			"defaultValue": "ADFTutorialDataFactory0210"
+			"defaultValue": "DataFactoryforDev"
 		},
 		"AzureStorage_connectionString": {
 			"type": "secureString",
@@ -21,7 +21,7 @@
 		},
 		"DestinationDataset_pdo_properties_typeProperties_folderPath": {
 			"type": "string",
-			"defaultValue": "adftutorial/output"
+			"defaultValue": "samplecontainer/output"
 		},
 		"SourceDataset_pdo_properties_typeProperties_fileName": {
 			"type": "string",
@@ -29,7 +29,7 @@
 		},
 		"SourceDataset_pdo_properties_typeProperties_folderPath": {
 			"type": "string",
-			"defaultValue": "adftutorial/input"
+			"defaultValue": "samplecontainer/input"
 		},
 		"containerUri": {
 			"type": "string",
