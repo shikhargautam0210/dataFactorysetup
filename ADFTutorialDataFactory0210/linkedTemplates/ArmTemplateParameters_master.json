@@ -15,13 +15,13 @@
 			"value": "output.txt"
 		},
 		"DestinationDataset_pdo_properties_typeProperties_folderPath": {
-			"value": "samplecontainer/output"
+			"value": "#{container_name}/output"
 		},
 		"SourceDataset_pdo_properties_typeProperties_fileName": {
 			"value": "emp.txt"
 		},
 		"SourceDataset_pdo_properties_typeProperties_folderPath": {
-			"value": "samplecontainer/input"
+			"value": "#{container_name}/input"
 		},
 		"containerUri": {
 			"value": ""
