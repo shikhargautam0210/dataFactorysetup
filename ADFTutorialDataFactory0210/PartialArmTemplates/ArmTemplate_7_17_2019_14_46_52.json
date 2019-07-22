@@ -5,7 +5,7 @@
 		"factoryName": {
 			"type": "string",
 			"metadata": "Data Factory Name",
-			"defaultValue": "ADFTutorialDataFactory0210"
+			"defaultValue": "DataFactoryforDev"
 		}
 	},
 	"variables": {
@@ -32,11 +32,11 @@
 						"userProperties": [
 							{
 								"name": "Source",
-								"value": "adftutorial/input/emp.txt"
+								"value": "samplecontainer/input/emp.txt"
 							},
 							{
 								"name": "Destination",
-								"value": "adftutorial/output/"
+								"value": "samplecontainer/output/"
 							}
 						],
 						"typeProperties": {
