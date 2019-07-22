@@ -21,7 +21,7 @@
 		},
 		"DestinationDataset_pdo_properties_typeProperties_folderPath": {
 			"type": "string",
-			"defaultValue": "samplecontainer/output"
+			"defaultValue": "#{container_name}/output"
 		},
 		"SourceDataset_pdo_properties_typeProperties_fileName": {
 			"type": "string",
@@ -29,7 +29,7 @@
 		},
 		"SourceDataset_pdo_properties_typeProperties_folderPath": {
 			"type": "string",
-			"defaultValue": "samplecontainer/input"
+			"defaultValue": "#{container_name}/input"
 		}
 	},
 	"variables": {
@@ -56,11 +56,11 @@
 						"userProperties": [
 							{
 								"name": "Source",
-								"value": "samplecontainer/input/emp.txt"
+								"value": "#{container_name}/input/emp.txt"
 							},
 							{
 								"name": "Destination",
-								"value": "samplecontainer/output/"
+								"value": "#{container_name}/output/"
 							}
 						],
 						"typeProperties": {
@@ -117,11 +117,11 @@
 						"userProperties": [
 							{
 								"name": "Source",
-								"value": "samplecontainer/input/emp.txt"
+								"value": "#{container_name}/input/emp.txt"
 							},
 							{
 								"name": "Destination",
-								"value": "samplecontainer/output/"
+								"value": "#{container_name}/output/"
 							}
 						],
 						"typeProperties": {
